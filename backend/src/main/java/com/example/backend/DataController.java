@@ -12,7 +12,7 @@ public class DataController {
 
     @Autowired
     private DataRepository dataRepository;
-    @CrossOrigin(origins = "http://127.0.0.1:61728")
+    @CrossOrigin(origins = "http://127.0.0.1:63342")
     @PostMapping
     public String postData(@RequestBody DataRequest request) {
         DataEntity dataEntity = new DataEntity();
